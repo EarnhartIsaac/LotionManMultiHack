@@ -7,7 +7,7 @@
 
 Glow::Glow(Memory * memMgr)
 {
-	// Initialize the Memory Manager
+	// Set the memory manager to the programs memory manager
 	MemMgr = memMgr;
 	ClientBaseAddr = MemMgr->ClientDLL_Base;
 }
@@ -29,9 +29,9 @@ void Glow::Run() {
 					int iGlowIndex = MemMgr->Read<int>(dwEntity + m_iGlowIndex);
 					//Chose color based on entities team
 					if (iEntityTeam == iLocalPlayerTeam)
-						SetGlow(iGlowIndex, 0, 0, 1, 0.8);
+						SetGlow(iGlowIndex, 0, 0, 1, 0.8f);
 					else 
-						SetGlow(iGlowIndex, 1, 0, 0, 0.8);
+						SetGlow(iGlowIndex, 1, 0, 0, 0.8f);
 				}
 			}
 		std::this_thread::sleep_for(std::chrono::milliseconds(25));

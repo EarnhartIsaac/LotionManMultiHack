@@ -1,4 +1,5 @@
-#pragma once
+#ifndef _GLOW_H
+#define _GLOW_H
 
 #include "Memory.h"
 #include "Offsets.h"
@@ -15,4 +16,6 @@ private:
 	Memory *MemMgr;
 	DWORD ClientBaseAddr;
 };
+
+#endif
 

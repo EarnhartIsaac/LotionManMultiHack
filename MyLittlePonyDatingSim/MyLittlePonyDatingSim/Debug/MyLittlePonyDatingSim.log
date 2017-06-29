@@ -1,11 +1,22 @@
-﻿Build started 6/27/2017 1:10:01 AM.
-     1>Project "F:\MEMES\MyLittlePonyDatingSim-20170627T074123Z-001\MyLittlePonyDatingSim\MyLittlePonyDatingSim\MyLittlePonyDatingSim.vcxproj" on node 2 (ClCompile target(s)).
+﻿Build started 6/28/2017 12:12:08 AM.
+     1>Project "F:\MEMES\MyLittlePonyDatingSim-20170627T074123Z-001\MyLittlePonyDatingSim\MyLittlePonyDatingSim\MyLittlePonyDatingSim.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Driver.cpp
-         Skipping... (no relevant changes detected)
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Bhop.cpp Driver.cpp Glow.cpp Trigger.cpp
+         Trigger.cpp
+         Glow.cpp
          Driver.cpp
-     1>Done Building Project "F:\MEMES\MyLittlePonyDatingSim-20170627T074123Z-001\MyLittlePonyDatingSim\MyLittlePonyDatingSim\MyLittlePonyDatingSim.vcxproj" (ClCompile target(s)).
+         Bhop.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\MEMES\MyLittlePonyDatingSim-20170627T074123Z-001\MyLittlePonyDatingSim\Debug\MyLittlePonyDatingSim.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\MEMES\MyLittlePonyDatingSim-20170627T074123Z-001\MyLittlePonyDatingSim\Debug\MyLittlePonyDatingSim.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\MEMES\MyLittlePonyDatingSim-20170627T074123Z-001\MyLittlePonyDatingSim\Debug\MyLittlePonyDatingSim.lib" /MACHINE:X86 Debug\Resource.res
+         Debug\Bhop.obj
+         Debug\Driver.obj
+         Debug\Glow.obj
+         Debug\Memory.obj
+         Debug\Trigger.obj
+         MyLittlePonyDatingSim.vcxproj -> F:\MEMES\MyLittlePonyDatingSim-20170627T074123Z-001\MyLittlePonyDatingSim\Debug\MyLittlePonyDatingSim.exe
+     1>Done Building Project "F:\MEMES\MyLittlePonyDatingSim-20170627T074123Z-001\MyLittlePonyDatingSim\MyLittlePonyDatingSim\MyLittlePonyDatingSim.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:00.16
+Time Elapsed 00:00:03.68

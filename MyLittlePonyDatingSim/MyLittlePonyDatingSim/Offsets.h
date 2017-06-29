@@ -22,7 +22,7 @@ const DWORD m_bSpotted = 0x939;
 const DWORD m_bSpottedByMask = 0x97C;
 const DWORD m_dwBoneMatrix = 0x2698;
 const DWORD m_fAccuracyPenalty = 0x32C0;
-const DWORD m_fFlags = 0x100;
+#define m_fFlags 0x100
 const DWORD m_flFallbackWear = 0x3178;
 const DWORD m_flFlashDuration = 0xA308;
 const DWORD m_flFlashMaxAlpha = 0xA304;
@@ -70,19 +70,19 @@ const DWORD dwClientState_PlayerInfo = 0x5240;
 const DWORD dwClientState_State = 0x108;
 const DWORD dwClientState_ViewAngles = 0x4D10;
 const DWORD dwClientState_IsHLTV = 0x4CC8;
-#define dwEntityList 0x4A8A684
+#define dwEntityList 0x4A8A654
 const DWORD dwForceAttack = 0x2ECCA08;
 const DWORD dwForceAttack2 = 0x2ECCA14;
 const DWORD dwForceBackward = 0x2ECCA8C;
 const DWORD dwForceForward = 0x2ECCA80;
-const DWORD dwForceJump = 0x4F21618;
+#define dwForceJump 0x4F215E8
 const DWORD dwForceLeft = 0x2ECCA68;
 const DWORD dwForceRight = 0x2ECCA74;
 const DWORD dwGameDir = 0x641A58;
 const DWORD dwGameRulesProxy = 0x4F8BF3C;
 const DWORD dwGetAllClasses = 0x4F8C010;
 const DWORD dwGlobalVars = 0x5A2F88;
-#define dwGlowObjectManager 0x4FA7690
+#define dwGlowObjectManager 0x4FA7660
 const DWORD dwInput = 0x4ED52A8;
 const DWORD dwInterfaceLinkList = 0x6E9264;
 #define dwLocalPlayer 0xAADFFC
