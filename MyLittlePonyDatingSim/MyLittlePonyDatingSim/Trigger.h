@@ -16,12 +16,13 @@ public:
 
 private:
 	const int DEFAULT_RANDOM_FACTOR = 10;
-	const int DEFAULT_DELAY = 50;
+	const int DEFAULT_DELAY = 30;
 
 	Memory *MemMgr;
 	DWORD ClientBaseAddr;
 	int RandomFactor;
 	int Delay;
+	bool spraying;
 
 	int FindDelay();
 };

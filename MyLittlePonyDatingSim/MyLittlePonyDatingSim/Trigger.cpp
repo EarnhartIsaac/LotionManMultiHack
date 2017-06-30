@@ -6,6 +6,8 @@ Trigger::Trigger(Memory * memMgr)
 	// Set the memory manager to the programs memory manager
 	MemMgr = memMgr;
 	ClientBaseAddr = MemMgr->ClientDLL_Base;
+	RandomFactor = DEFAULT_RANDOM_FACTOR;
+	Delay = DEFAULT_DELAY;
 }
 
 //Override to change the delay algorithm
@@ -37,12 +39,17 @@ void Trigger::Run()
 	{
 		//Shoot here
 		//External way, you can customize the delays
-
-		Sleep(FindDelay()); //Delay before shooting
-		mouse_event(MOUSEEVENTF_LEFTDOWN, NULL, NULL, NULL, NULL);
-		Sleep(10); //Delay between shots
+		if (!spraying)
+		{
+			Sleep(FindDelay()); //Delay before shooting
+			mouse_event(MOUSEEVENTF_LEFTDOWN, NULL, NULL, NULL, NULL);
+			spraying = true;
+		}
+	}
+	else if (spraying)
+	{
 		mouse_event(MOUSEEVENTF_LEFTUP, NULL, NULL, NULL, NULL);
-		Sleep(10); //Delay after shooting
+		spraying = false;
 	}
 }
 
