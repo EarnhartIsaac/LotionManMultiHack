@@ -1,10 +1,10 @@
-﻿Build started 6/29/2017 1:06:38 PM.
+﻿Build started 7/7/2017 5:35:58 PM.
      1>Project "F:\MEMES\MyLittlePonyDatingSim-20170627T074123Z-001\MyLittlePonyDatingSim\MyLittlePonyDatingSim\MyLittlePonyDatingSim.vcxproj" on node 2 (ClCompile target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Trigger.cpp
-         Trigger.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Driver.cpp
+         Driver.cpp
      1>Done Building Project "F:\MEMES\MyLittlePonyDatingSim-20170627T074123Z-001\MyLittlePonyDatingSim\MyLittlePonyDatingSim\MyLittlePonyDatingSim.vcxproj" (ClCompile target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:00.55
+Time Elapsed 00:00:00.70

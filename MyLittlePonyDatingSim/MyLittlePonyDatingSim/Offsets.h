@@ -70,22 +70,22 @@ const DWORD dwClientState_PlayerInfo = 0x5240;
 const DWORD dwClientState_State = 0x108;
 const DWORD dwClientState_ViewAngles = 0x4D10;
 const DWORD dwClientState_IsHLTV = 0x4CC8;
-#define dwEntityList 0x4A8A654
+#define dwEntityList 0x4A8B6B4
 const DWORD dwForceAttack = 0x2ECCA08;
 const DWORD dwForceAttack2 = 0x2ECCA14;
 const DWORD dwForceBackward = 0x2ECCA8C;
 const DWORD dwForceForward = 0x2ECCA80;
-#define dwForceJump 0x4F215E8
+#define dwForceJump 0x4F22650
 const DWORD dwForceLeft = 0x2ECCA68;
 const DWORD dwForceRight = 0x2ECCA74;
 const DWORD dwGameDir = 0x641A58;
 const DWORD dwGameRulesProxy = 0x4F8BF3C;
 const DWORD dwGetAllClasses = 0x4F8C010;
 const DWORD dwGlobalVars = 0x5A2F88;
-#define dwGlowObjectManager 0x4FA7660
+#define dwGlowObjectManager 0x4FA86B8
 const DWORD dwInput = 0x4ED52A8;
 const DWORD dwInterfaceLinkList = 0x6E9264;
-#define dwLocalPlayer 0xAADFFC
+#define dwLocalPlayer 0xAAEFFC
 const DWORD dwMouseEnable = 0xAB3860;
 const DWORD dwMouseEnablePtr = 0xAB3830;
 const DWORD dwPlayerResource = 0x2ECAD8C;
